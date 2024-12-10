@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Colorization</title>
+</head>
+<body>
+    <h1>Upload a Grayscale Image</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Colorize</button>
+    </form>
+</body>
+</html>

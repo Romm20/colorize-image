@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  /* Centered form styling */
+  form {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  
+  /* Form input styling */
+  input[type="file"] {
+      display: block;
+      margin: 15px auto;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      cursor: pointer;
+  }
+  
+  button {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
